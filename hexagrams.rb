@@ -1,5 +1,5 @@
 class Hexagram
-    def khien
+    def khien_hex
       khien = <<-'HEX'
         KHIEN
         111111
@@ -18,7 +18,7 @@ class Hexagram
       HEX
     end
 
-    def khwan
+    def khwan_hex
       khwan = <<-'HEX'
         KHWAN
         000000
@@ -38,7 +38,7 @@ class Hexagram
       HEX
     end
 
-    def chun
+    def chun_hex
       chun = <<-'HEX'
         CHUN
         010001
@@ -56,7 +56,7 @@ class Hexagram
       HEX
     end
 
-    def mang
+    def mang_hex
       mang = <<-'HEX'
         MANG
         100010
@@ -75,7 +75,7 @@ class Hexagram
       HEX
     end
 
-    def hsu
+    def hsu_hex
       hsu = <<-'HEX'
         HSU
         010111
@@ -93,7 +93,7 @@ class Hexagram
       HEX
     end
 
-    def sung
+    def sung_hex
       sung = <<-'HEX'
         SUNG
         111010
@@ -110,7 +110,7 @@ class Hexagram
       HEX
     end
 
-    def sze
+    def sze_hex
       sze = <<-'HEX'
         SZE
         000010
@@ -127,7 +127,7 @@ class Hexagram
       HEX
     end
 
-    def pi
+    def pi_hex
       pi = <<-'HEX'
         PI
         010000
@@ -143,8 +143,8 @@ class Hexagram
       HEX
     end
 
-    def hsiao chu
-      hsiao chu = <<-'HEX'
+    def hsiaochu_hex
+      hsiaochu = <<-'HEX'
         HSIAO CHU
         110111
         Air of Lingam
@@ -162,7 +162,7 @@ class Hexagram
       HEX
     end
 
-    def li
+    def li_hex 
       li = <<-'HEX'
         LI
         111011
@@ -178,7 +178,7 @@ class Hexagram
       HEX
     end
 
-    def thai
+    def thai_hex
       thai = <<-'HEX'
         THAI
         000111
@@ -195,7 +195,7 @@ class Hexagram
       HEX
     end
 
-    def phi
+    def phi_hex
       phi = <<-'HEX'
         PHI
         111000
@@ -212,8 +212,8 @@ class Hexagram
       HEX
     end
 
-    def thung zan
-      thung zan = <<-'HEX'
+    def thungzan_hex
+      thungzan = <<-'HEX'
         THUNG ZAN
         111101
         Lingam of Sun
@@ -231,8 +231,8 @@ class Hexagram
       HEX
     end
 
-    def ta yu
-      ta yu = <<-'HEX'
+    def tayu_hex 
+      tayu = <<-'HEX'
         TA YU
         101111
         Sun of Lingam
@@ -250,7 +250,7 @@ class Hexagram
       HEX
     end
 
-    def chien
+    def chien_hex
       chien = <<-'HEX'
         CHIEN
         000100
@@ -267,7 +267,7 @@ class Hexagram
       HEX
     end
 
-    def yu
+    def yu_hex
       yu = <<-'HEX'
         YU
         001000
@@ -286,7 +286,7 @@ class Hexagram
       HEX
     end
 
-    def sui
+    def sui_hex
       sui = <<-'HEX'
         SUI
         011001
@@ -303,7 +303,7 @@ class Hexagram
       HEX
     end
 
-    def ku
+    def ku_hex
       ku = <<-'HEX'
         KU
         100110
@@ -320,7 +320,7 @@ class Hexagram
       HEX
     end
 
-    def lin
+    def lin_hex
       lin = <<-'HEX'
         LIN
         000011
@@ -337,7 +337,7 @@ class Hexagram
       HEX
     end
 
-    def kwan
+    def kwan_hex
       kwan = <<-'HEX'
         KWAN
         110000
@@ -353,8 +353,8 @@ class Hexagram
       HEX
     end
 
-    def shih ho
-      shih ho = <<-'HEX'
+    def shihho_hex
+      shihho = <<-'HEX'
         SHIH HO
         101001
         Sun of Fire
@@ -369,7 +369,7 @@ class Hexagram
       HEX
     end
 
-    def pi
+    def pi_hex
       pi = <<-'HEX'
         PI
         100101
@@ -386,7 +386,7 @@ class Hexagram
       HEX
     end
 
-    def po
+    def po_hex
       po = <<-'HEX'
         PO
         100000
@@ -401,7 +401,7 @@ class Hexagram
       HEX
     end
 
-    def fu
+    def fu_hex
       fu = <<-'HEX'
         FU
         000001
@@ -419,8 +419,8 @@ class Hexagram
       HEX
     end
 
-    def wu wang
-      wu wang = <<-'HEX'
+    def wuwang_hex
+      wuwang = <<-'HEX'
         WU WANG
         111001
         Lingam of Fire
@@ -436,8 +436,8 @@ class Hexagram
       HEX
     end
 
-    def ta khu
-      ta khu = <<-'HEX'
+    def takhu_hex
+      takhu = <<-'HEX'
         TA KHU
         100111
         Earth of Lingam
@@ -454,7 +454,7 @@ class Hexagram
       HEX
     end
 
-    def i
+    def i_hex
       i = <<-'HEX'
         I
         100001
@@ -471,8 +471,8 @@ class Hexagram
       HEX
     end
 
-    def ta kwo
-      ta kwo = <<-'HEX'
+    def takwo_hex
+      takwo = <<-'HEX'
         TA KWO
         011110
         Water of Air
@@ -489,7 +489,7 @@ class Hexagram
       HEX
     end
 
-    def khan
+    def khan_hex
       khan = <<-'HEX'
         KHAN
         010010
@@ -507,7 +507,7 @@ class Hexagram
       HEX
     end
 
-    def li
+    def li_hex
       li = <<-'HEX'
         LI
         101101
@@ -524,7 +524,7 @@ class Hexagram
       HEX
     end
 
-    def hsien
+    def hsien_hex
       hsien = <<-'HEX'
         HSIEN
         011100
@@ -542,7 +542,7 @@ class Hexagram
       HEX
     end
 
-    def hang
+    def hang_hex
       hang = <<-'HEX'
         HANG
         001110
@@ -559,7 +559,7 @@ class Hexagram
       HEX
     end
 
-    def thun
+    def thun_hex
       thun = <<-'HEX'
         THUN
         111100
@@ -577,8 +577,8 @@ class Hexagram
       HEX
     end
 
-    def ta kwang
-      ta kwang = <<-'HEX'
+    def takwang_hex
+      takwang = <<-'HEX'
         TA KWANG
         001111
         Fire of Lingam
@@ -596,7 +596,7 @@ class Hexagram
       HEX
     end
 
-    def zin
+    def zin_hex
       zin = <<-'HEX'
         ZIN
         000101
@@ -614,7 +614,7 @@ class Hexagram
       HEX
     end
 
-    def ming
+    def ming_hex
       ming = <<-'HEX'
         MING
         000101
@@ -631,8 +631,8 @@ class Hexagram
       HEX
     end
 
-    def kia zan
-      kia zan = <<-'HEX'
+    def kiazan_hex
+      kiazan = <<-'HEX'
         KIA ZAN
         101011
         Air of Sun
@@ -649,7 +649,7 @@ class Hexagram
       HEX
     end
 
-    def khwei
+    def khwei_hex
       khwei = <<-'HEX'
         KHWEI
         101011
@@ -666,7 +666,7 @@ class Hexagram
       HEX
     end
 
-    def kien
+    def kien_hex
       kien = <<-'HEX'
         KIEN
         010100
@@ -686,7 +686,7 @@ class Hexagram
       HEX
     end
 
-    def kieh
+    def kieh_hex
       kieh = <<-'HEX'
         KIEH
         001010
@@ -703,7 +703,7 @@ class Hexagram
       HEX
     end
 
-    def sun
+    def sun_hex
       sun = <<-'HEX'
         SUN
         100011
@@ -720,7 +720,7 @@ class Hexagram
       HEX
     end
 
-    def yi
+    def yi_hex
       yi = <<-'HEX'
         YI
         110001
@@ -737,7 +737,7 @@ class Hexagram
       HEX
     end
 
-    def kwai
+    def kwai_hex
       kwai = <<-'HEX'
         KWAI
         011111
@@ -755,7 +755,7 @@ class Hexagram
       HEX
     end
 
-    def kau
+    def kau_hex
       kau = <<-'HEX'
         KAU
         111110
@@ -772,7 +772,7 @@ class Hexagram
       HEX
     end
 
-    def zhui
+    def zhui_hex
       zhui = <<-'HEX'
         ZHUI
         011000
@@ -790,7 +790,7 @@ class Hexagram
       HEX
     end
 
-    def shang
+    def shang_hex
       shang = <<-'HEX'
         SHANG
         000110
@@ -810,7 +810,7 @@ class Hexagram
       HEX
     end
 
-    def khwan
+    def khwan_hex
       khwan = <<-'HEX'
         KHWAN
         011010
@@ -828,7 +828,7 @@ class Hexagram
       HEX
     end
 
-    def zing
+    def zing_hex
       zing = <<-'HEX'
         ZING
         010110
@@ -848,7 +848,7 @@ class Hexagram
       HEX
     end
 
-    def ko
+    def ko_hex
       ko = <<-'HEX'
         KO
         011101
@@ -865,7 +865,7 @@ class Hexagram
       HEX
     end
 
-    def ting
+    def ting_hex
       ting = <<-'HEX'
         TING
         101110
@@ -884,7 +884,7 @@ class Hexagram
       HEX
     end
 
-    def chen
+    def chen_hex
       chen = <<-'HEX'
         CHEN
         001001
@@ -906,7 +906,7 @@ class Hexagram
       HEX
     end
 
-    def kan
+    def kan_hex
       kan = <<-'HEX'
         KAN
         100100
@@ -925,7 +925,7 @@ class Hexagram
       HEX
     end
 
-    def kien
+    def kien_hex
       kien = <<-'HEX'
         KIEN
         110100
@@ -942,8 +942,8 @@ class Hexagram
       HEX
     end
 
-    def kwei mei
-      kwei mei = <<-'HEX'
+    def kweimei_hex
+      kweimei = <<-'HEX'
         KWEI MEI
         001011
         Fire of Water
@@ -959,7 +959,7 @@ class Hexagram
       HEX
     end
 
-    def fang
+    def fang_hex
       fang = <<-'HEX'
         FANG
         001101
@@ -976,7 +976,7 @@ class Hexagram
       HEX
     end
 
-    def lu
+    def lu_hex
       lu = <<-'HEX'
         LU
         101100
@@ -993,7 +993,7 @@ class Hexagram
       HEX
     end
 
-    def sun
+    def sun_hex
       sun = <<-'HEX'
         SUN
         110110
@@ -1011,7 +1011,7 @@ class Hexagram
       HEX
     end
 
-    def tui
+    def tui_hex
       tui = <<-'HEX'
         TUI
         011011
@@ -1029,7 +1029,7 @@ class Hexagram
       HEX
     end
 
-    def hwan
+    def hwan_hex
       hwan = <<-'HEX'
         HWAN
         110010
@@ -1046,7 +1046,7 @@ class Hexagram
       HEX
     end
 
-    def kieh
+    def kieh_hex
       kieh = <<-'HEX'
         KIEH
         010011
@@ -1065,8 +1065,8 @@ class Hexagram
       HEX
     end
 
-    def kung fu
-      kung fu = <<-'HEX'
+    def kungfu_hex
+      kungfu = <<-'HEX'
         KUNG FU
         110011
         Air of Water
@@ -1083,8 +1083,8 @@ class Hexagram
       HEX
     end
 
-    def hsiao kwo
-      hsiao kwo = <<-'HEX'
+    def hsiaokwo_hex
+      hsiaokwo = <<-'HEX'
         HSIAO KWO
         001100
         Fire of Earth
@@ -1101,8 +1101,8 @@ class Hexagram
       HEX
     end
 
-    def ki zi
-      ki zi = <<-'HEX'
+    def kizi_hex
+      kizi = <<-'HEX'
         KI ZI
         010101
         Moon of Sun
@@ -1118,8 +1118,8 @@ class Hexagram
       HEX
     end
 
-    def wei zi
-      wei zi = <<-'HEX'
+    def weizi_hex
+      weizi = <<-'HEX'
         WEI ZI
         101010
         Sun of Moon
@@ -1137,4 +1137,15 @@ class Hexagram
       HEX
     end
 
+    def all_hexes
+        methods.select { |m| m =~ /_hex$/ }
+    end
+
+    def random
+        print send(all_hexes[rand(all_hexes.length)])
+    end
+
 end
+
+this_hex = Hexagram.new
+this_hex.random
